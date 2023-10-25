@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LinkGenerico from "../components/LinkGenerico/LinkGenerico";
 import LinkSegundo from "../components/LinkSegundo";
 
@@ -23,6 +24,7 @@ const Primeiro = () => {
             <h5>mini título</h5>
             <p>Meu texto</p>
             {links}
+            <Link to="listagem">Listagem</Link>
         </div>);
 };
 
