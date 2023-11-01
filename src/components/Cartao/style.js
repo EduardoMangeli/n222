@@ -4,6 +4,8 @@ const ContainerCartao = styled.div`
     display: flex;
     flex-direction: column;
     border: solid black 1px;
+    min-width: 100px;
+    align-items: center;
 
     p{
         text-align: center;
