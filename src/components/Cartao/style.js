@@ -9,12 +9,13 @@ const ContainerCartao = styled.div`
 
     p{
         text-align: center;
-        font-weight: bolder;
+        font-family: 'Shantell Sans', cursive;
     }
 `;
 
 const Titulo = styled.h3`
     color: forestgreen;
+    font-family: 'Shantell Sans', cursive;
 `
 
 export {ContainerCartao, Titulo}
